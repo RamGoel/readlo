@@ -8,6 +8,9 @@ html{
   height: 300px;
   overflow: scroll;
   padding: 0px 10px;
+  border: 2px solid black;
+  margin: 5px;
+  position: relative;
 }
 div::-webkit-scrollbar {
   display: none;

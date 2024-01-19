@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html{
+  width: 330px;
+  height: 300px;
+  overflow: scroll;
+  padding: 0px 10px;
+}
+div::-webkit-scrollbar {
+  display: none;
+}

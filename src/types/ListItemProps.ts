@@ -1,6 +1,6 @@
 export type ListItemProps = {
     name: string,
     url: string,
-    createdAt: Date,
+    createdAt: Date | string,
     createdBy: number,
 }

@@ -1,10 +1,11 @@
-import './App.css'
+import Header from './components/Header'
 import ReadlingList from './components/ReadingList'
 
 function App() {
 
   return (
     <>
+      <Header />
       <ReadlingList />
     </>
   )
